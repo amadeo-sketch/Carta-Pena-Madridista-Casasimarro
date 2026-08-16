@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carta Peña Madridista Casasimarro</title>
-  <style>
-    html, body {
-      margin: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      background: #fff;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Carta Peña Madridista Casasimarro</title>
+
+<style>
+    * {
+        box-sizing: border-box;
     }
 
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
+    html, body {
+        margin: 0;
+        padding: 0;
+        background: white;
     }
-  </style>
+
+    .carta {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .carta img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+</style>
 </head>
+
 <body>
-  <iframe src="carta.pdf#toolbar=0&navpanes=0&scrollbar=1"></iframe>
+
+<div class="carta">
+    <img src="1.png" alt="Carta página 1">
+    <img src="2.png" alt="Carta página 2">
+    <img src="3.png" alt="Carta página 3">
+</div>
+
 </body>
 </html>
