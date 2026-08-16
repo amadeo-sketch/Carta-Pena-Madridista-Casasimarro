@@ -14,7 +14,7 @@
     html, body {
         margin: 0;
         padding: 0;
-        background: white;
+        background: #eeeeee;
     }
 
     .carta {
@@ -23,7 +23,15 @@
         margin: 0 auto;
     }
 
-    .carta img {
+    .pagina {
+        display: block;
+        width: 100%;
+        margin-bottom: 12px;
+        background: white;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    }
+
+    .pagina img {
         display: block;
         width: 100%;
         height: auto;
@@ -34,10 +42,23 @@
 <body>
 
 <div class="carta">
-    <img src="1.png" alt="Carta página 1">
-    <img src="2.png" alt="Carta página 2">
-    <img src="3.png" alt="Carta página 3">
-    <img src="4.png" alt="Carta de vinos">
+
+    <div class="pagina">
+        <img src="1.png" alt="Carta página 1">
+    </div>
+
+    <div class="pagina">
+        <img src="2.png" alt="Carta página 2">
+    </div>
+
+    <div class="pagina">
+        <img src="3.png" alt="Carta página 3">
+    </div>
+
+    <div class="pagina">
+        <img src="4.png" alt="Carta de vinos">
+    </div>
+
 </div>
 
 </body>
